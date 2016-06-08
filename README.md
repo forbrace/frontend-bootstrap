@@ -2,4 +2,4 @@
 
  `npm install`, then `gulp`
 
-Follow `http://localhost:8080`
+Follow <a href="http://localhost:8080">http://localhost:8080</a>

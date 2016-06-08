@@ -4,7 +4,7 @@
     angular
         .module('app')
         .component('appLogin', {
-            templateUrl: '/assets/js/components/login.html',
+            templateUrl: 'assets/js/components/login.html',
             controller: appLoginController
         })
     ;

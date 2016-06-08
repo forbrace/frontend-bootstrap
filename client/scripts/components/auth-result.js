@@ -4,7 +4,7 @@
     angular
         .module('app')
         .component('appAuthResult', {
-            templateUrl: '/assets/js/components/auth-result.html',
+            templateUrl: 'assets/js/components/auth-result.html',
             controller: appAuthResultController
         })
     ;
