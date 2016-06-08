@@ -5,13 +5,13 @@
         .module('app')
         .component('appLogin', {
             templateUrl: 'assets/js/components/login.html',
-            controller: appLoginController
+            controller: LoginController
         })
     ;
 
-    appLoginController.$inject = ['$state', 'userService'];
+    LoginController.$inject = ['$state', 'userService'];
 
-    function appLoginController($state, userService) {
+    function LoginController($state, userService) {
         var vm = this;
 
         vm.submit = submit;

@@ -5,11 +5,9 @@
             'ui.router',
             'ui.bootstrap'
         ])
-        .config(function($stateProvider, $urlRouterProvider, $locationProvider) {
+        .config(function($stateProvider, $urlRouterProvider) {
 
             $urlRouterProvider.otherwise("/home");
-
-            $locationProvider.html5Mode(true);
 
             $stateProvider
                 .state('home', {

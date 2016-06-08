@@ -5,13 +5,13 @@
         .module('app')
         .component('appAuthResult', {
             templateUrl: 'assets/js/components/auth-result.html',
-            controller: appAuthResultController
+            controller: AuthResultController
         })
     ;
 
-    appAuthResultController.$inject = ['$state', 'userService'];
+    AuthResultController.$inject = ['$state', 'userService'];
 
-    function appAuthResultController($state, userService) {
+    function AuthResultController($state, userService) {
         var vm = this;
 
         vm.name = userService.get().name;
